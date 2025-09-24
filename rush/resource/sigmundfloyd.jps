@@ -1,7 +1,0 @@
-// js/main.js
-document.getElementById('btnGreet').addEventListener('click', function(){
-  const name = document.getElementById('nameInput').value.trim();
-  const p = document.getElementById('greeting');
-  if(name) p.textContent ={name}! `;
-  else p.textContent ';
-});
